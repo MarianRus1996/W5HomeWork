@@ -5,7 +5,7 @@ for(i of [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]){
 //Ex 2. Display in the console the odd numbers from 1 to 20
 
 for(i=1; i<=20; i++){
-    if(i%2==0)
+    if(i%2!=0)
     console.log(i)
 }
 //Ex 3. Compute the sum of the elements of an array and display it in console
